@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+  #back-btn {
+    margin-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 16px;
+  }
+
+  .search-result {
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: 18px;
+  }
+
+  #next-btn {
+    margin-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 16px;
+  }
+
+  .button-stretch{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .button-stretch:hover {
+    padding: 25px 40px;
+  }
+  .button-shadow {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
+  .button-shadow:active {
+    margin-top: 2px;
+    margin-left: 2px;
+    box-shadow: none;
+  }
+
+  .stretch-button {
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    transition: padding 0.15s,
+      margin 0.15s;
+  }
+
+  .stretch-button:hover {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+</style>
+</head>
+<body>
+  <button id="back-btn">
+    back
+  </button>
+  
+  <a class="search-result" href="https://www.google.com" target="_blank">1</a>
+  <a class="search-result" href="https://www.google.com" target="_blank">2</a>
+  <a class="search-result" href="https://www.google.com" target="_blank">3</a>
+  <a class="search-result" href="https://www.google.com" target="_blank">4</a>
+  <a class="search-result" href="https://www.google.com" target="_blank">5</a>
+
+  <button id="next-btn">
+    Next
+  </button>
+
+  <p></p>
+  <button class="button-stretch">Stretch</button>
+  
+  <p></p>
+  <button class="button-shadow">Shadow</button>
+
+  <p></p>
+  <button class="stretch-button">One</button>
+  <button class="stretch-button">Two</button>
+  <button class="stretch-button">Three</button>
+
+</body>
+</html>
