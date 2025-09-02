@@ -8,8 +8,8 @@
   <style>
     .friend{
       font-family: Arial;
-      width: 160px;
-      height: 280px;
+      width: 180px;
+      height: 315px;
       border: 0px;
       border-style: solid;
       box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
@@ -17,8 +17,8 @@
       margin: 5px;
     }
     .end {
-      width: 160px;
-      height: 160px;
+      width: 180px;
+      height: 180px;
       object-fit: cover;
       object-position: center;
     }
@@ -33,9 +33,9 @@
     }
     
     .mutual{
-      margin-left: 8px;
-      margin-top: 8px;
-      
+      display: inline-block;
+      vertical-align: middle;
+      color: rgb(100, 100, 100);
     }
     button{
       margin-left: 8px;
@@ -45,46 +45,83 @@
       border-radius: 3px;
       padding: 5px 10px;
     }
+    .pfp-container {
+    }
+    .pfp {
+      display: inline-block;
+      border-radius: 25px;
+      width: 25px;
+      height: 25px;
+      object-fit: cover;
+      object-position: center;
+      margin-right: 4px;
+      vertical-align: middle;
+    }
+    .pfp-mutual{
+      margin-bottom: 10px;
+      margin-left: 8px;
+    }
   </style>
 </head>
 <body>
-  <div class="friend">
-    <img class="end" src="endurance.jpg">
-    <p class="title">
-      Oliver
-    </p>
-    <p class="mutual">
-      2 mutual friends
-    </p>
-    <button>
-      Add Friend
-    </button>
-  </div>
+  <div>
 
-  <div class="friend">
-    <img class="end" src="endurance.jpg">
-    <p class="title">
-      Mimi
-    </p>
-    <p class="mutual">
-      3 mutual friends
-    </p>
-    <button>
-      Add Friend
-    </button>
-  </div>
+    <div class="friend">
+      <div>
+        <img class="end" src="endurance.jpg">
+        <p class="title">
+          Oliver
+        </p>
+      </div>
+      <div class="pfp-mutual">
+        <img class="pfp" src="endurance.jpg">
+        <p class="mutual">
+          2 mutual friends
+        </p>
+      </div>
 
-  <div class="friend">
-    <img class="end" src="endurance.jpg">
-    <p class="title">
-      Rex
-    </p>
-    <p class="mutual">
-      4 mutual friends
-    </p>
-    <button>
-      Add Friend
-    </button>
+      <button>
+        Add Friend
+      </button>
+
+    </div>
+    
+    <div class="friend">
+      <div>
+        <img class="end" src="endurance.jpg">
+        <p class="title">
+          Mimi
+        </p>
+      </div>
+      <div class="pfp-mutual">
+        <img class="pfp" src="endurance.jpg">
+        <p class="mutual">
+          3 mutual friends
+        </p>
+      </div>
+
+      <button>
+        Add Friend
+      </button>
+    </div>
+    
+    <div class="friend">
+      <div>
+        <img class="end" src="endurance.jpg">
+        <p class="title">
+          Rex
+        </p>
+      </div>
+      <div class="pfp-mutual">
+        <img class="pfp" src="endurance.jpg">
+        <p class="mutual">
+          4 mutual friends
+        </p>
+      </div>
+      <button>
+        Add Friend
+      </button>
+    </div>
   </div>
 </body>
 </html>
