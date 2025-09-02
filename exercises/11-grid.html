@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<style>
+  .div0{
+    display: grid;
+    grid-template-columns: 200px 75px;
+  }
+  .div1{
+    background-color: lightblue;
+  }
+  .div2{
+    background-color: lightpink;
+  }
+
+  .div4{
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+  }
+  .div5{
+    background-color: lightpink;
+  }
+  .div6{
+    background-color: lightblue;
+  }
+  .div7, .div9, .div10, .div11, .div12{
+    background-color: lightpink;
+  }
+  
+  .div8{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 20px;
+    column-gap: 20px;
+    row-gap: 10px;
+  }
+</style>
+<body>
+  <div class="div0">
+    <div class="div1">200px</div>
+    <div class="div2">75px</div>
+  </div>
+
+  <div class="div4">
+    <div class="div5">col1</div>
+    <div class="div6">col2</div>
+    <div class="div7">col3</div>
+  </div>
+
+  <div class="div8">
+    <div class="div9">col1</div>
+    <div class="div10">col2</div>
+    <div class="div11">col3</div>
+    <div class="div12">col4</div>
+
+    <div class="div9">col1</div>
+    <div class="div10">col2</div>
+    <div class="div11">col3</div>
+    <div class="div12">col4</div>
+  </div>
+
+
+
+</body>
+</html>
