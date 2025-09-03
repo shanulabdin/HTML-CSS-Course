@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .main{
+      font-family: arial;
+      display: flex;
+      justify-content: center;
+      border-width: 0px;
+      border-style: solid;
+      border-radius: 25px;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+      padding: 40px;
+      margin: 80px;
+    }
+    .profile-picture{
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 40px;
+    }
+    .content{
+      margin-left: 10px;
+      width: 350px;
+    }
+    .username-container{
+      display: flex;
+      
+    }
+    .name{
+      font-weight: bold;
+    }
+    .username{
+      color: gray;
+      margin-left: 6px;
+    }
+    .tweet{
+      margin-top: 8px;
+    }
+    .link-container{
+      display: flex;
+      background: rgb(209, 209, 209);
+      height: 100px;
+      border-radius: 25px;
+      margin-top: 12px;
+    }
+    .box{
+      width: 150px;
+    }
+    .title-container{
+      background-color: white;
+      border-width: 1px;
+      border-style: solid;
+      border-color: rgb(209, 209, 209);
+      border-radius: 0px 25px 25px 0px;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: center;
+    }
+    .link{
+      margin-left: 20px;
+      margin-bottom: 5px;
+      color: gray;
+    }
+    .title{
+      margin-left: 20px;
+
+    }
+  </style>
+</head>
+<body>
+
+  <div class="main">
+    <div class="image-container">
+      <img class="profile-picture" src="../images/cat.jpg">
+    </div>
+
+    <div class="content">
+      <div class="username-container">
+        <div class="name">supersimple.dev</div>
+        <div class="username">@SupereSimpleDev</div>
+      </div>
+      <div class="tweet">
+        What is backend web developement? A complete overview. New video is up!
+      </div>
+
+      <div class="link-container">
+        <div class="box"></div>
+
+        <div class="title-container">
+          <div class="link">youtube.com</div>
+          <div class="title">Backend web developement - a complete overview (2021)</div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
