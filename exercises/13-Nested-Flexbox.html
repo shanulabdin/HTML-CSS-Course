@@ -4,8 +4,75 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <style>
+    .flexbox {
+      display: flex;
+      flex-direction: row;
+      height: 50px;
+    }
+
+    .column1 {
+      background-color: lightpink;
+      width: 100px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .item1 {
+      background-color: black;
+      color: white;
+    }
+
+    .column2 {
+      background-color: lightblue;
+      width: 200px;
+    }
+    .flexbox2 {
+      margin-top: 10px;
+      display: flex;
+      flex-direction: row;
+      height: 50px;
+    }
+    .row2{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+    }
+    .row2-1{
+      background-color: black;
+
+    }
+    .row2-1{
+      background-color: black;
+
+    }
+
+  </style>
 </head>
 <body>
-  
+    <div class="flexbox">
+      <div class="column1">
+        <div class="item1">item1</div>
+      </div>
+      <div class="column2"></div>
+    </div>
+
+    <div class="flexbox2">
+      <div class="column1">
+        <div class="item1"></div>
+      </div>
+      <div class="column2">
+        <div class="row1">row1</div>
+
+        <div class="row2">
+          <div class="row2-1">row2</div>
+          <div class="row2-1">row2</div>
+        </div>
+        
+      </div>
+    </div>
 </body>
 </html>
