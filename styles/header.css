@@ -160,6 +160,8 @@
 
 .current-user-picture{
   height: 32px;
+  width: 32px;
+  object-fit: cover;
   border-radius: 16px;
   cursor: pointer;
 }
